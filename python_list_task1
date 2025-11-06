@@ -1,0 +1,5 @@
+# Task 1: Sum of a list
+def lst_sum(a):
+    return sum(a)
+
+print(lst_sum([1,2,3,4,5]))
