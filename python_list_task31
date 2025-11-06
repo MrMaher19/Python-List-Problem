@@ -1,0 +1,8 @@
+# Task 31:
+def lst(a, min, max):
+    couunt = 0
+    for i in a:
+        if i in range(min, max):
+            couunt += 1
+    return couunt
+print(lst([10, 20, 30, 40, 40, 40, 70, 80, 99], 70, 100))
