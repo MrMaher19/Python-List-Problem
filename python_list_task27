@@ -1,0 +1,5 @@
+# Task 27:
+def second_smallest(a):
+    a.sort()
+    return a[1]
+print(second_smallest([20, 30, 6, 9, 40, 50]))
