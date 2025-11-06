@@ -1,0 +1,8 @@
+# Task 12:
+def lst(a):
+    b = a[1:4].copy()
+    a.clear()
+    a.append(b)
+    return a
+
+print(lst(['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']))
