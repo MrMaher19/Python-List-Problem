@@ -1,0 +1,9 @@
+# Task : Check if all numbers in a list are prime using a function
+def check_prime(a, b):
+    for i, j in zip(a,b):
+        for k, l in zip(range(2,i), range(2, j)):
+            if i % k == 0 and k % l == 0:
+                return "not prime"
+    return "All prime"
+
+print(check_prime([17,29,23], [11,13,19,23]))
