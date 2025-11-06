@@ -1,0 +1,5 @@
+# Task18:
+import itertools
+def permutation(a):
+    return list(itertools.permutations(a))
+print(permutation([2,4,6]))
