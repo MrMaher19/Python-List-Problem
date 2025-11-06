@@ -1,0 +1,5 @@
+# Task 29:
+def uniqe(a):
+    return list(set(a))
+# Assuming an example list for Task 29
+# print(uniqe([1, 2, 2, 3, 4, 4, 5]))
