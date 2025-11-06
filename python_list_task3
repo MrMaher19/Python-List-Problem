@@ -1,0 +1,5 @@
+# Task 3: Largest number in a list
+def largest_num(a):
+    return max(a)
+
+print(largest_num([20, 80, 30, 70, 40, 50]))
