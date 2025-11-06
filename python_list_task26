@@ -1,0 +1,6 @@
+# Task 26:
+def lst(a, b):
+    return "".join(map(str, b)) in "".join(map(str, a*2))
+
+
+print(lst([ [10, 10, 0, 0, 10]], [ [10, 10, 10, 0, 0]]))
