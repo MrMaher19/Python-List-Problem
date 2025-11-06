@@ -1,0 +1,4 @@
+# Task 22:
+def find_index(a):
+    return a.index(65)
+print(find_index([22,3,4,65]))
