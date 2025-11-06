@@ -1,0 +1,5 @@
+# Task 25:
+import random
+def check_random(a):
+    return random.choice(a)
+print(check_random([2,3,4,6,7]))
