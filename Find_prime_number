@@ -1,0 +1,11 @@
+# Task : Find prime numbers from a list using a function
+def is_prime(a):
+    not_prime = []
+    for x in a:
+        for y in range(2, x):
+            if x % y == 0:
+                not_prime.append(x)
+                break
+    return list(set(a) - set(not_prime))
+
+print(is_prime([10,15,12,18,17,29,23]))
