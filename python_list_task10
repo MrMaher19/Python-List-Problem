@@ -1,0 +1,8 @@
+# Task 10;
+def words_longer_n(a):
+    n = int(input("Set your n number : "))
+    words = a.split()
+    lst_comp = [i for i in words if len(i) > n]
+    return lst_comp
+
+print(words_longer_n("Slow and steady but wins the race"))
