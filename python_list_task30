@@ -1,0 +1,10 @@
+# Task 30:
+def frequency(a):
+    j = {}
+    for i in a:
+        if i in j:
+            j[i] += 1
+        else:
+            j[i] = 1
+    return j
+print(frequency([10,15,10,10,15,20,10,15,20,18]))
