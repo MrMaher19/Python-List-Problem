@@ -1,0 +1,8 @@
+# Task 11:
+def is_common(a, b):
+    for i in a:
+        if i in b:
+            return True
+    return "False"
+
+print(is_common([10,20,30], [30,40,50]))
