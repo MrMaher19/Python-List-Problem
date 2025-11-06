@@ -1,1 +1,8 @@
 
+# Task 8: Check if a list is empty
+def is_empty(a):
+    if len(a) == 0:
+        return "Empty"
+    return "Not Empty"
+
+print(is_empty([]))
