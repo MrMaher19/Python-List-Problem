@@ -1,0 +1,6 @@
+# Task 20:
+def find_index(a):
+    for i in a:
+        print(f"{i} = {a.index(i)}")
+    return a
+print(find_index([20,30,40,50,60,70]))
