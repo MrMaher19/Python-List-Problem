@@ -1,1 +1,7 @@
 
+# Task 6: Sort a list of tuples by the second element
+def lst(a):
+    a.sort(key=lambda x: x[1])
+    return a
+
+print(lst([(2, 5), (1, 2), (4, 4), (2, 3), (2, 1)]))
