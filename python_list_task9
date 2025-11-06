@@ -1,1 +1,7 @@
 
+# Task 9: Copy a list
+def copy_lst(a):
+    b = a.copy()
+    return b
+
+print(copy_lst([10,20,30]))
