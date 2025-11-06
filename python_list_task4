@@ -1,0 +1,5 @@
+# Task 4: Smallest number in a list
+def smallest_num(a):
+    return min(a)
+
+print(smallest_num([20, 80, 30, 70, 40, 50]))
