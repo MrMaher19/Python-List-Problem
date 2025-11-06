@@ -1,0 +1,7 @@
+# Task 2: Multiplication of a list
+import numpy as np
+
+def lst_multi(b):
+    return np.prod(b)
+
+print(lst_multi([2,3,4,5]))
