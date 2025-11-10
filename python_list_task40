@@ -1,0 +1,11 @@
+# Task 40:
+from itertools import groupby
+from operator import itemgetter
+
+def  new(a):
+    for letter, words in groupby(sorted(a), key=itemgetter(0)):
+        print(letter)
+        for word in words:
+            print(word)
+print(new(['be','have','do','say','get','make','go','know','take','see','come','think',
+     'look','want','give','use','find','tell','ask','work','seem','feel','leave','call']))
