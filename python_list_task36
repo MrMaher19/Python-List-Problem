@@ -1,0 +1,4 @@
+# Task 36:
+def identification(a):
+    return id(a)
+print(identification(input("Give a number or string : ")))
