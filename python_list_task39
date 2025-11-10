@@ -1,0 +1,5 @@
+# Task 39:
+def single_int(a):
+    new = "".join(map(str, a))
+    return new
+print(single_int([10,20,30]))
